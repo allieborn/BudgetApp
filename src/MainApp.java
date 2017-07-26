@@ -26,15 +26,19 @@ public class MainApp {
             categoryAmount[i] = catAmount;
         }
 
-        System.out.println();
+        System.out.println(); //PRINT MONTHLY BUDGET TABLE
 
-        System.out.println("Stored data:");
+        System.out.println("Here's your monthly budget:");
+
+        System.out.println();
 
         for (int i=0; i < budgetCategories.size(); i++){
             System.out.print(budgetCategories.get(i) + "  ");
             System.out.println(categoryAmount[i]);
 
-        }
+        }  //PRINT MONTHLY BUDGET TABLE
+
+
 
 
 
